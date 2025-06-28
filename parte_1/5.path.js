@@ -17,7 +17,8 @@ const base = path.basename('/tmp/midu-secret-files/password.txt')
 console.log(base)
 
 // obtener nombre de un archivo (fichero) sin extensión
-const filename = path.basename('/tmp/midu-secret-files/password.txt')
+const ruta = '/tmp/midu-secret-files/password.txt'
+const filename = path.basename(ruta, path.extname(ruta))
 console.log(filename)
 
 // obtener la extensión de un archivo (fichero)

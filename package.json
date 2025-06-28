@@ -1,0 +1,34 @@
+{
+  "name": "node-guide",
+  "version": "1.0.0",
+  "description": "Mini guida para node js por @JJGithubUT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJgithubUT/node-guide.git"
+  },
+  "keywords": [
+    "guia",
+    "guide",
+    "node",
+    "nodejs",
+    "jjgithubut"
+  ],
+  "author": "Juan JC Bretón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJgithubUT/node-guide/issues"
+  },
+  "homepage": "https://github.com/JJgithubUT/node-guide#readme",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
