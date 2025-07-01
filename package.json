@@ -4,6 +4,8 @@
   "description": "Mini guida para node js por @JJGithubUT",
   "main": "index.js",
   "scripts": {
+    "dev:1": "nodemon 1.http.js",
+    "dev:2": "nodemon 2.routing.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "lint": "standard"
@@ -29,6 +31,7 @@
     "picocolors": "^1.1.1"
   },
   "devDependencies": {
+    "nodemon": "^3.1.10",
     "standard": "^17.1.2"
   }
 }

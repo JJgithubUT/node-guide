@@ -10,6 +10,21 @@ Este es un recopilatorio de herramientas, extensiones y fragmentos útiles que h
 
 ---
 
+## 🚗 Correr proyectos
+
+#### Comandos:
+
+- ``npm run dev:1`` *ejecutas* ==> **1.http.js** - (nodemon)
+- ``npm run dev:2`` *ejecutas* ==> **2.routing.js** - (nodemon)
+
+## ❓ Ayudas
+
+-- [Status Codes for HTTP](https://restfulapi.net/http-status-codes/)
+-- 
+-- [Cats Codes](https://http.cat/)
+-- 
+-- [Requests.md](./parte_2/requests.md)
+
 ## 🎡 Instalación node desde 0
 
 ```bash
@@ -24,10 +39,18 @@ npm init
 Puedes instalar las extensiones con `npm`. Por ejemplo:
 
 ```bash
-npm install picocolors                 <-- Dependencia de producción ✅
-npm install standard --development     <-- Dependencia de desarrollo ⛔
-
+npm install picocolors                 <-- Dependencia de producción 🚀
+npm install standard --development     <-- Dependencia de desarrollo 🛠️
+npm install nodemon -D                 <-- Dependencia de desarrollo 🛠️
 ```
+---
+
+## Extensiones útiles para Visual Studio Code
+
+- [Otras extensiones muy útiles pero menos que las siguientes](https://code.visualstudio.com/docs/nodejs/extensions)
+- RapidAPI Client
+- Eslint
+- StandardJS - JavaScript Standard Style
 
 ---
 
