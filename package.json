@@ -6,6 +6,7 @@
   "scripts": {
     "dev:1": "nodemon 1.http.js",
     "dev:2": "nodemon 2.routing.js",
+    "dev:3": "node --watch ./parte_2/3.express.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "lint": "standard"
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/JJgithubUT/node-guide#readme",
   "dependencies": {
+    "express": "5.1.0",
     "picocolors": "^1.1.1"
   },
   "devDependencies": {

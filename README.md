@@ -14,8 +14,10 @@ Este es un recopilatorio de herramientas, extensiones y fragmentos útiles que h
 
 #### Comandos:
 
+- cd parte_2
 - ``npm run dev:1`` *ejecutas* ==> **1.http.js** - (nodemon)
 - ``npm run dev:2`` *ejecutas* ==> **2.routing.js** - (nodemon)
+- ``npm run dev:3`` *ejecutas* ==> **3.express.js** - (express, dev:3)
 
 ## ❓ Ayudas
 
@@ -42,6 +44,7 @@ Puedes instalar las extensiones con `npm`. Por ejemplo:
 npm install picocolors                 <-- Dependencia de producción 🚀
 npm install standard --development     <-- Dependencia de desarrollo 🛠️
 npm install nodemon -D                 <-- Dependencia de desarrollo 🛠️
+npm install express -E
 ```
 ---
 

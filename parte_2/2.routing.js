@@ -29,6 +29,7 @@ const processRequest = (req, res) => {
             const data = JSON.parse(body)
             // llamada a una database para guardar la info
             res.writeHead(201, { 'Content-Type': 'application/json; charset=utf-8' }) // cuando haz creado el recurso (201)
+            data.timestamp = Date.now()
             res.end(JSON.stringify(data))
           })
           break
