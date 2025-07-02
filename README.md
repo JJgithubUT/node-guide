@@ -46,6 +46,8 @@ npm install standard --development     <-- Dependencia de desarrollo 🛠️
 npm install nodemon -D                 <-- Dependencia de desarrollo 🛠️
 npm install express -E                 <-- Dependencia de producción 🚀
 npm install zod -E                     <-- Dependencia de producción 🚀    
+npm install cors -E                    <-- Dependencia de producción 🚀               
+npm install mongodb -E                 <-- Dependencia de producción 🚀   
 ```
 ---
 

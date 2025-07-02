@@ -13,7 +13,7 @@ const PORT = process.env.NODE_GUIDE_EXP_PORT ?? 2061
 
 const ACCEPTED_ORIGINS = [
   'http://localhost:8080',
-  'http://localhost:1234',
+  'http://localhost:2061',
   'https://movies.com'
 ]
 
