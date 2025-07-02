@@ -44,7 +44,8 @@ Puedes instalar las extensiones con `npm`. Por ejemplo:
 npm install picocolors                 <-- Dependencia de producción 🚀
 npm install standard --development     <-- Dependencia de desarrollo 🛠️
 npm install nodemon -D                 <-- Dependencia de desarrollo 🛠️
-npm install express -E
+npm install express -E                 <-- Dependencia de producción 🚀
+npm install zod -E                     <-- Dependencia de producción 🚀    
 ```
 ---
 
