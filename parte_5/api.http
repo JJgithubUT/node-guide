@@ -29,7 +29,8 @@ PATCH http://localhost:2060/movies/ccf36f2e-8566-47f7-912d-9f4647250bc7
 Content-Type: application/json
 
 {
-  "year": 2004
+  "year": 2004,
+  "title": "Titanic"
 }
 
 ### Borrar una película

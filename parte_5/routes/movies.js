@@ -1,12 +1,16 @@
 import { Router } from 'express' // require -> ESModules
-
 import { MovieController } from '../controllers/movies.js'
 
-export const moviesRouter = Router()
+export const createMovieRouter = ({ movieModel }) => {
+  const moviesRouter = Router()
 
-// Controller routes
-moviesRouter.get('/', MovieController.getAll)
-moviesRouter.get('/:id', MovieController.getByID)
-moviesRouter.post('/', MovieController.create)
-moviesRouter.patch('/:id', MovieController.update)
-moviesRouter.delete('/:id', MovieController.delete)
+  const movieController = new MovieController({ movieModel })
+
+  moviesRouter.get('/', movieController.getAll)
+  moviesRouter.get('/:id', movieController.getById)
+  moviesRouter.post('/', movieController.create)
+  moviesRouter.patch('/:id', movieController.update)
+  moviesRouter.delete('/:id', movieController.delete)
+
+  return moviesRouter
+}

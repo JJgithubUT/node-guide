@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:1": "node --watch ./app.js"
+    "dev:1": "node --watch ./app.js",
+    "start:pg": "node --watch ./server-with-postgres.js",
+    "start:lc": "node --watch ./server-with-local.js"
   },
   "keywords": [],
   "author": "",
